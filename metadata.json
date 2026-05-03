@@ -1,0 +1,6 @@
+{
+  "name": "SentientMeet",
+  "description": "An AI-powered video conferencing tool that analyzes facial expressions to provide real-time emotion detection and participant engagement insights.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["AI Emotion Analysis", "Real-time Video Processing"]
+}
