@@ -54,9 +54,9 @@ const EMOJI_LIBRARY = {
   "Objects": ['🍀', '🍎', '☕️', '🍕', '🍦', '🌈', '💻', '💡', '📚', '🎨']
 };
 
-const ANALYSIS_INTERVAL = 20000; // 20 seconds between AI checks to prevent rate limiting
+const ANALYSIS_INTERVAL = 30000; // 30 seconds between AI checks to prevent rate limiting
 const ANALYSIS_RETRY_DELAY = 60000; // 60 seconds wait after rate limit error
-const GEMINI_MODEL = "gemini-1.5-flash"; // Use a more standard flash model alias for better stability
+const GEMINI_MODEL = "gemini-3-flash-preview";
 
 const getEmotionColor = (emotionStr: string) => {
   const e = emotionStr.toLowerCase();
